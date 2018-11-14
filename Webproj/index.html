@@ -1,41 +1,293 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width">
     <title>JL Studio's</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="js/studio.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
-  <body>
 
-<h1><a href="file:///Users/blare_robinson/Desktop/webproject%20/Signupform/userform.html">Sign Up</a></h1>
+<body>
 
-      <img src="Images/JL_STUDIO_PIC.jpg" alt="Workout Pic" class="first-img">
-      <h1>JL Studio's</h1>
-      <h2 class="section-title">Which workout best describes your goal?</h2>
+    <div class="first_color">
+      <div id="flashMessage">
+       You are one step closer to a better you, CONGRATS!!
+      </div>
 
-      <select id="section-title" name="user_workout">
-        <option value="Gain_Muscle">Gain Muscle</option>
-        <option value="Lose_Muscle">Lose Muscle</option>
-        <option value="Gain_Weight">Gain Weight</option>
-        <option value="Lose_Weight">Lose Weight</option>
-        <option value="Cardio">Cardio</option>
-        <option value="Yoga">Yoga</option>
-        <option value="Undecided">Undecided</option>
-      </select>
-      <h2 class="section-title">Meal Plans</h2>
-      <h2 class="section-title">Cardio Locations</h2>
+    <div class="head_body">
+      <div class="pic_text">
+        <img src="../Images/JL_STUDIO_PIC-min.jpg" alt="Workout Pic" class="google-pic">
+    <!--     <img src="../Images/GymWorkout.jpg" alt="Google" class="google-pic"> -->
+        <h1 class="header_text">JL STUDIO'S</h1>
+          <p class="quote"> "Exercise to stimulate, not to annihilate. The world wasn't formed in a day, and neither were we. Set small goals and build upon them."
+            <br> - Lee Haney</p>
+
+              <p class="slideUp">SCROLL DOWN</p>
+              <p><i class="arrow down"></i></p>
+          </div>
+        </div>
+              <div id="mySideNav" class="side_Nav">
+             <!--   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> close button -->
+                   <a href="file:///Users/blare_robinson/Desktop/webproject%20/Signupform/userform.html" target="_blank">Sign Up</a>
+                   <a href="#">About</a>
+                   <a href="#weight">Weight Watching</a>
+                   <a href="#cardio">Cardio</a>
+                   <a href="#contact">Contact</a>
+              </div>
+              <div class="social_media">
+                 <a href="https://www.facebook.com/john.lopes.5055" class="fa fa-facebook" target="_blank"></a>
+                 <a href="https://www.instagram.com/nextlevel_gainz/" class="fa fa-instagram" target="_blank"></a>
+              </div>
 
 
 
+            </div>
+          </div>
+
+
+    <div class="body2 container">
+
+  <!-- <br>
+  <h1 id="weight" class="heading-center">Meal Plans</h1>
+
+  <h2 class="meal-plans">A few tips</h2> -->
+
+
+<div id="weight" class="row">
+  <div class='primary col'>
+    <img class="feat-img" src="../Images/food prep.jpg" alt="Food">
+        <p id="Capital">The 5 Best Meal Planning Apps to Help You Lose Weight Meal planning is one of the best ways to kickstart and stay on top of your weight loss goals.
+    In a world focused on to-do lists and productivity, finding the time and energy to plan healthy meals tailored to your tastes and nutritional needs can be a daunting task.
+    Fortunately, a multitude of apps can make meal planning and maybe weight loss a lot more attainable. Gone are the days of fishing for recipes from a cookbook while you scribble a grocery list on a post-it note!
+    Here are 11 of the best meal planning apps available today.</p>
+
+    <br></br>
+
+        <h2 class="heading-one">1. Mealime</h2>
+
+    Mealime offers user friendly, customizable meal plans that you can tailor to your diet while excluding specific foods you don’t like.
+    It is available on both iOS and Android platforms and the basic version is free.
+    After you’ve entered your preferences, you are presented with a variety of recipe choices, complete with full color photos, simple instructions and an organized grocery list. An additional bonus is that the recipes all take under 45 minutes to prepare.
+    However, one of the major drawbacks is that you are limited to the recipes available on the app as there is no way to import your own.
+    Whats more, you cannot save previously used meal plans, customize calorie preferences or view nutrition information unless you upgrade to the pro version, which will set you back $5.99/month or $49.99/year.
+    </div> <!--/ .primary -->
+
+    <div class="secondary col">
+     <h2 class="heading-one">2. Paprika</h2>
+
+    Paprika is marketed primarily as a recipe manager, but it also includes menu planning features. It is available on both Android and iOS platforms for a one time fee of $5.99.
+    With Paprika, you are in charge of saving and entering recipes to build meal plans. It does not have its own preset recipes and menus. Therefore, it is probably best for people who can structure a meal plan with minimal support.
+    This app provides customized grocery lists and allows you to save recipes directly from the web. Additionally, Paprika detects when more than one recipe needs the same ingredient and consolidates the relevant grocery lists for you.
+    The app will keep your screen turned on while you are working from a recipe. It can also detect timer directions within a recipe so that you can set cooking timers directly from the app.
+    One drawback to this app is that it will not detect if you have entered a recipe from the same URL more than once. If you accidentally enter the same recipe, you’ll end up with duplicates.
+    Additionally, Paprika doesn’t always include nutrition information. It will only draw nutrition data from the original recipe webpage or information you enter manually.
+    If you know what types of food meet your calorie goals, this deficiency may not be problematic. However, if you need the extra support, a different app may be more appropriate.
+
+
+
+    <h2 class="heading-one">3. PlateJoy</h2>
+
+    PlateJoy creates customized meal plans for you and your household according to your dietary preferences and weight loss goals. It’s available on both Android and iOS platforms.
+    PlateJoy is a user-friendly app with beautiful, full-color photos and a high level of customization. Full nutrition information is available for each recipe, and you can sync it with your Fitbit or Jawbone to better track your health goals.
+    It creates customized grocery lists and helps prevent food waste by allowing you to log the food already in your fridge or pantry. That way, you don’t repurchase items you already have.
+    Another feature lets you send your grocery list to Instacart for grocery delivery depending on where you live.
+    The biggest drawbacks to Platejoy are that you cannot enter your own recipes and that it’s somewhat costly compared to other meal planning apps. It’ll set you back $69 for six months or $99 for a 12-month subscription.
+    </div> <!--/ .secondary-->
+
+    <div class="tertiary col">
+      <h2 class="heading-one">4. Plan to Eat</h2>
+
+    Plan to Eat lets you organize all of your favorite recipes and create meal plans in one easy to use app. It’s available on both iOS and Android platforms.
+    You can enter recipes manually or input a URL from any recipe online. Full nutrition information is provided for each recipe, and you can edit or add notes as you please.
+    Adding recipes to the weekly calendar-style planner will automatically create an organized grocery list.
+    A unique feature of this app is that you can share your recipes or meal plans with friends and family, making it easier to stay on top of your health goals as a team.
+    Because it doesn’t come with a preset recipe database, this app is definitely a better choice for those who have a good recipe collection already or who enjoy searching the web for new recipes.
+    Though Plan to Eat requires a $4.95/month or $39/year fee, you can try it out for free for 30 days.
+
+
+
+    <h2 class="heading-one">5. Yummly</h2>
+
+    Yummly is both an app and a website, in which you can browse and save recipes tailored to your personal tastes from all over the web.
+    It’s available on both iOS and Android platforms and free of charge.
+    Yummly can filter recipes based on dietary preferences, allergies and skill level. You can even filter for recipes that have videos, which is handy for those looking to develop their cooking skills or learn new techniques.
+    Full nutrition information is available for each recipe.
+    When you save recipes, you can organize them into separate meal categories, such as breakfast, lunch, dinner and snacks. You can also enter and save your own recipes manually.
+    One of the major drawbacks of Yummly is its overall usability. While it’s visually appealing, it's complicated and more difficult to use compared to similar apps. If you’re not technologically savvy, it may not be the best choice.
+    Additionally, Yummly doesn’t have a calendar-style meal plan, which may or may not be an issue depending on the features you desire in a meal planning app.
+</div> <!--/ .tertiary-->
+      </div>
+    </div>
+
+    <!-- CARDIO BODY -->
+<div class="body3 container">
+<div class="row2">
+
+    <h1 id="cardio" class="last-header">Cardio Locations</h1>
+
+  <div class="lastRow container">
+   <div class="first col1">
+      <h2 class="heading-2"> Cherokee Park </h2>
+        The land comprising Cherokee Park was originally part of a 4,000-acre (16 km2) military land grant in 1773 to James Southall and Richard Charlton.
+
+A 43-acre (170,000 m2) portion of the land passed to Judge Joshua Fry Bullitt, who sold it in 1868 to foundry magnate Archibald P. Cochran. Cochran established an estate there called Fern Cliff, which operated as a museum for a while but has since been demolished.
+As the land was located around Beargrass Creek, it was hilly and ill-suited to farming. Prior to its conversion as a park, the land was used primarily for animal grazing, although much of it was wooded.
+
+By 1893 the land was carved into six estates, including Cochran's (which was sold to the city after his death in 1889). The other estates belonged to the Bonnycastle 63 acres (250,000 m2), Barret 20 acres (81,000 m2), Morton & Griswold 106 acres (0.43 km2), Alexander 25 acres (100,000 m2) families, respectively. Those and two small lots under 1-acre (4,000 m2) were bought by 1891. Additional land from the Longest, Barringer and Belknap families would be added to expand the park to its modern size.
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="../Images/Cherokee_park.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="../Images/Cherokee_Park2.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="../Images/Cherokee_Park3.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+
+
+
+
+  </div>
+
+  <div class="second col1">
+    <h2 class="heading-2"> Seneca Park </h2>
+        In 1922, the land known today as Seneca Park and Bowman Field was inherited by a German man named Waldemar Konrad von Zedtwitz. Prior to inheriting the land, America was at war with Germany and von Zedtwitz was serving as a lieutenant in the German Army. During the war the US created an Office of Alien Property Custodian, and because von Zedtwitz was a German citizen, control of his land was transferred to the US Trust Company of Louisville. After World War I ended, von Zedtwitz hired an attorney to regain possession of his estate.
+
+The Louisville Board of Parks Commissioners contacted the Trust Company of Louisville, expressing interest in purchasing the land to expand park space. In 1928, after years of trials and negotiations, Zedtwitz was still unable to gain control of his land, so he agreed to sell the 540-acre property to the Parks Commission. After the purchase of this land, the Louisville Board of Parks Commissioners leased 200 acres to Bowman Field. With the remaining acres, Olmsted Brothers firm began designing Seneca Park. Two years later the Board purchased the necessary land to connect Seneca and Cherokee Parks. Seneca Park was the last park in Louisville designed by the Olmsted firm.
+
+Seneca Park now includes a golf course, baseball fields, basketball courts, biking, cross country trails, field hockey, soccer, volleyball, horseback riding trails, picnic tables, a playground, and a 1.2 mile long walking path. According to The Trust for Public Land, Seneca Park has 500,000 visitors annually, placing it in the top 100 municipal parks in the United States. Frederick Law Olmsted Parks were designed to enhance the life of the communities around them. Olmsted Parks Conservancy restores, enhances, and preserves these parks and parkways so Louisvillians can continue to enjoy all the benefits these beautiful parks have to offer.
+
+The design plan for Seneca was in stark contrast to neighboring Cherokee Park because of its formal style and also because the plan included an 18-hole golf course along with many other recreation facilities.
+
+
+      <!-- Slideshow container -->
+      <div class="slideshow-container2">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides2 fade">
+          <div class="numbertext2">1 / 3</div>
+          <img src="../Images/seneca_park.jpg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides2 fade">
+          <div class="numbertext2">2 / 3</div>
+          <img src="../Images/seneca_park2.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides2 fade">
+          <div class="numbertext2">3 / 3</div>
+          <img src="../Images/seneca_park3.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+        <a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide2(1)"></span>
+        <span class="dot" onclick="currentSlide2(2)"></span>
+        <span class="dot" onclick="currentSlide2(3)"></span>
+      </div>
+    </div>
+
+
+
+
+
+
+<div class="third col1">
+    <h2 class="heading-2">  Tom Soyer </h2>
+        Established in 1970
+
+E.P. “Tom” Sawyer, a 550- acre park, is located in Louisville in the northeastern part of Jefferson County off Westport Road. Named in honor of former Jefferson County Judge Executive Erbon Powers Sawyer (1915-1969), the Commonwealth of Kentucky originally purchased the land for the park in June 1969 from the Kentucky Department of Mental Health. The Kentucky Department of Parks leased the land and the buildings in 1970 and the park opened in 1974. A portion of the property had once been used for farmland for the mental health hospital.
+
+Louisville and the metropolitan Jefferson County area is Kentucky’s largest urban center. Both city and county are steeped in Kentucky history. As one of the three original Kentucky Counties (Fayette, Jefferson, and Lincoln), Jefferson County grew rapidly in population and wealth. Rich farmlands bordering the Ohio River made the county one of the most desirable places to settle during the pioneer era. Louisville was named in honor of King Louis XVI of France for the French monarch’s support of the American struggle for independence from Great Britain during the Revolution. The Ohio River town became a major trading center.
+
+Notables from America and Europe came to Louisville for business and pleasure. Charles Dickens visited the city and wrote that the Galt House Hotel was as fine as any hotel in Paris. Jenny Lind, the famous nineteenth century Swedish singer, performed in the city. Oscar Wilde, the brilliant British wit and playwright, also visited Louisville.
+
+Louisville is best known as the home of one of the most famous sporting events in the world—the Kentucky Derby. Since 1875, the first Saturday in May is dedicated to watching the best in thoroughbred racing. Millions of people watch via television and listen to radios to horse racing’s premiere event.
+
+E.P. “Tom “Sawyer State Park is an extraordinary urban park. There are activities and events that offer something for even the most demanding individual. The park is open throughout the year.
+
+<!-- Slideshow container -->
+<div class="slideshow-container3">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides3 fade">
+    <div class="numbertext3">1 / 3</div>
+    <img src="../Images/tom_sawyer.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides3 fade">
+    <div class="numbertext3">2 / 3</div>
+    <img src="../Images/tom_sawyer2.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides3 fade">
+    <div class="numbertext3">3 / 3</div>
+    <img src="../Images/tom_sawyer3.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev3" onclick="plusSlides3(-1)">&#10094;</a>
+  <a class="next3" onclick="plusSlides3(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide3(1)"></span>
+  <span class="dot" onclick="currentSlide3(2)"></span>
+  <span class="dot" onclick="currentSlide3(3)"></span>
+</div>
+
+
+  </div>
+ </div>
+</div>
+</div>
+  <script src="../js/jquery-3.3.1.js"></script>
+  <script src="../js/studio.js"></script>
 </body>
-
-
-
-
-
-
-
-
-
 
 
 
