@@ -13,7 +13,7 @@
 a:any-link {
 color: -webkit-link;
 text-decoration: underline;
-cursor: auto;
+cursor: pointer;
 }
 
 
